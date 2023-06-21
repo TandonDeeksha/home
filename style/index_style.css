@@ -1,0 +1,27 @@
+.container {
+position : relative;
+display : inline-block;
+}
+.container img {
+height : 800px;
+width : 1250px;
+}
+.button-container {
+position : absolute;
+top : 40%;
+left : 50%;
+transform : translate(-115%,-35%);
+}
+.button {
+display : block;
+margin-bottom : 10px;
+text-align : center;
+text-decoration : none;
+background-color : #FFF0F5;
+border : none;
+border-radius : 4px;
+cursor : pointer;
+padding : 10px 20px;
+font-size : 25px;
+font-family : "Modern Love Gaps";
+}

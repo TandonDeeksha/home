@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lady Gaga's Life</title>
+  <link rel="stylesheet" href="style/webpage_one_style.css">
+  <link rel="stylesheet" href="style/webpage_three_style.css">
+  <link rel="stylesheet" href="style/webpage_three_second_style.css">
+  <link rel="stylesheet" href="style/jumptop_style.css">
+  <link rel="stylesheet" href="style/top_songs.css">
+</head>
+
+  <h1 class="Music_title">Albums, Singles, and Career:</h1>
+
+  <div class="button-container">
+    <a href="index.html" class="button">Home</a>
+    <a href="webpage_one.html" class="button">Music</a>
+    <a href="webpage_two.html" class="button">About Lady Gaga</a>
+    <a href="webpage_four.html" class="button">Her Evolution and Influence on the World</a>
+    <a href="webpage_five.html" class="button">Why I love Lady Gaga</a>
+    <a href="resources_references.html" class="button">Resources/References</a>
+  </div>
+
+  <div class="container">
+    <div class="album">
+      <img src="Images_1/the_fame_album.png" alt="The Fame Album" onclick="openModal(this)">
+    </div>
+    <div class="album">
+      <img src="Images_1/born_this_way_album.png" alt="Born This Way Album" onclick="openModal(this)">
+    </div>
+    <div class="album">
+      <img src="Images_1/artpop_album.png" alt="ARTPOP Album" onclick="openModal(this)">
+    </div>
+    <div class="album">
+      <img src="Images_1/joanne_album.png" alt="Joanne Album" onclick="openModal(this)">
+    </div>
+    <div class="album">
+      <img src="Images_1/chromatica_album.png" alt="Chromatica Album" onclick="openModal(this)">
+    </div>
+  </div>
+
+  <div class="modal" onclick="closeModal()">
+    <div class="modal-content">
+      <img class="modal-image" src="" alt="">
+    </div>
+  </div>
+  
+  <script>
+    function openModal(img) {
+      var modal = document.querySelector('.modal');
+      var modalImage = document.querySelector('.modal-image');
+
+      modalImage.src = img.src;
+      modal.style.display = 'flex';
+    }
+
+    function closeModal() {
+      var modal = document.querySelector('.modal');
+      modal.style.display = 'none';
+    }
+  </script>
+</body>
+</html>
+
+<html>
+<body>
+  <h1>Lady Gaga - Acting Career</h1>
+
+  <div class="image">
+    <img src="Images_1/lady_gaga_acting.jpg" alt="Lady Gaga Acting" width="600" height="340">
+    <div class="caption">Lady Gaga in a movie: "The House of Gucci"</div>
+  </div>
+<center>
+  <div class="description">
+    <h2>Early Acting Roles</h2>
+    <p>Lady Gaga, born Stefani Germanotta, embarked on her acting career with early roles that showcased her incredible versatility and talent. One of her notable early acting endeavors was her appearance in the critically acclaimed television series "The Sopranos" in 2001, where she portrayed a high school student. Gaga's natural ability to captivate audiences translated seamlessly into her on-screen performances, earning her recognition and paving the way for her future success as both a musician and an actress. Her early acting roles served as a testament to her artistic range, foreshadowing the immense impact she would later make in the entertainment industry.</p>
+    
+	<h2>Breakthrough Role - A Star is Born</h2>
+    <p>Lady Gaga's breakthrough role came in the 2018 musical romantic drama film "A Star is Born," directed by Bradley Cooper. In the film, Gaga portrayed the aspiring singer-songwriter Ally Campana, whose talent catches the attention of seasoned musician Jackson Maine, played by Cooper. Gaga's portrayal of Ally was nothing short of extraordinary, capturing the character's vulnerability, passion, and raw talent. Her powerful performance not only showcased her incredible acting abilities but also her remarkable singing prowess, as she delivered soul-stirring musical performances throughout the film. Gaga's portrayal of Ally in "A Star is Born" not only earned her critical acclaim but also solidified her status as a multi-talented artist, proving that she could seamlessly transition between music and acting with remarkable success.</p>
+    
+	<h2>Other Acting Projects</h2>
+    <p>In addition to her breakthrough role in "A Star is Born," Lady Gaga has taken on various other acting roles that have further demonstrated her versatility and talent. She made a memorable appearance in the fifth season of the anthology series "American Horror Story: Hotel" in 2015, portraying the enigmatic and glamorous Countess Elizabeth Johnson. Gaga's performance in the series earned her a Golden Globe Award for Best Actress in a Miniseries or Television Film. She has also lent her voice to animated films, such as "Hotel Transylvania 3: Summer Vacation" (2018), where she voiced the character of Countess Dracula. Gaga's foray into acting has proven her ability to inhabit diverse characters across different genres, solidifying her status as a multi-faceted performer in both the music and film industries.</p>
+  </div>
+</center>
+
+  <div class="image">
+    <img src="Images_1/lg_oscars.jpg" alt="Lady Gaga Awards">
+    <div class="caption">Lady Gaga receiving an award for her acting and singing in "A Star is Born"</div>
+  </div>
+  
+<center>
+  <title>Lady Gaga's Top Songs</title>
+   <h1>Lady Gaga's Top Songs</h1>
+  <table>
+    <tr>
+      <th>Year</th>
+      <th>Song</th>
+      <th>Earnings (USD)</th>
+      <th>Views (in billions)</th>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Poker Face</td>
+      <td>$7.8 million</td>
+      <td>1.1 billion</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Bad Romance</td>
+      <td>$9.2 million</td>
+      <td>2.9 billion</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>Telephone (ft. Beyoncé)</td>
+      <td>$6.5 million</td>
+      <td>1.5 billion</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Born This Way</td>
+      <td>$8.1 million</td>
+      <td>1.1 billion</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Applause</td>
+      <td>$5.7 million</td>
+      <td>550 million</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Million Reasons</td>
+      <td>$4.9 million</td>
+      <td>550 million</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>Rain On Me (ft. Ariana Grande)</td>
+      <td>$10.3 million</td>
+      <td>1.1 billion</td>
+    </tr>
+  </table>
+</center>
+
+
+  <button onclick="scrollToTop()" id="scroll-to-top">Back to Top</button>
+
+  <script>
+    window.onscroll = function() { scrollFunction() };
+
+    function scrollFunction() {
+      var scrollToTopButton = document.getElementById("scroll-to-top");
+      
+      if (document.documentElement.scrollTop > 100 || document.body.scrollTop > 100) {
+        scrollToTopButton.style.display = "block";
+      } else {
+        scrollToTopButton.style.display = "none";
+      }
+    }
+
+    function scrollToTop() {
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+      document.body.scrollTop = 0; // For Safari
+    }
+  </script>
+
+	<a href = ""> <img src = "Images_1/html_validator.png" width = "100px" height = "50px" alt = "html validator"></a>
+	<a href=""> <img src="Images_1/CSS_validator.png" width = "100px" height = "50px" alt="Valid CSS!" /></a>
+
+</body>
+</html>
